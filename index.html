@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gráfico de Tipos de Cambio</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h2>Tipos de Cambio vs <span id="baseLabel">USD</span></h2>
+
+  <label for="monedaBase">Selecciona moneda base:</label>
+  <select id="monedaBase">
+    <option value="USD">USD</option>
+    <option value="MXN">MXN</option>
+    <option value="EUR">EUR</option>
+    <option value="JPY">JPY</option>
+    <option value="GBP">GBP</option>
+  </select>
+
+  <canvas id="graficaDivisas" width="400" height="200"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
